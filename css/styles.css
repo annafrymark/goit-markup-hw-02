@@ -1,13 +1,16 @@
 body {
   font-family: "Roboto", sans-serif;
   font-family: "Raleway", sans-serif;
-  background: #e5e5e5;
+  font-family: Verdana, Tahoma, sans-serif;
+  color: #212121;
+  background-color: #e5e5e5;
 }
 .logo {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   font-style: bold;
+  line-height: 1.19;
   color: #2196f3;
 }
 .logo__studio--header {
@@ -18,6 +21,7 @@ a {
 }
 .navigation__link {
   font-size: 14px;
+  line-height: 1.14;
   color: #212121;
 }
 .navigation__link:hover,
@@ -30,6 +34,7 @@ a {
 .header-contact {
   color: #757575;
   font-size: 14px;
+  line-height: 1.14;
 }
 .header-contact:hover,
 .header-contact:focus {
@@ -39,45 +44,41 @@ a {
   background-color: rgba(47, 48, 58, 1);
 }
 .section-main__header {
-  font-family: Roboto;
   font-weight: 900;
   font-size: 44px;
+  line-height: 1.36;
   color: rgba(255, 255, 255, 1);
 }
 .section-main__button {
   color: rgba(255, 255, 255, 1);
   background-color: rgba(33, 150, 243, 1);
   padding: 10px 41px;
-  font-family: Roboto;
   font-size: 16px;
   font-style: bold;
   font-weight: 700;
+  line-height: 1.88;
+  cursor: pointer;
 }
 .article__title {
   color: rgba(33, 33, 33, 1);
-  font-family: Roboto;
   font-size: 14px;
   font-weight: 700;
-  line-height: 16.41px;
+  line-height: 1.17;
 }
 .article__text {
   color: rgba(117, 117, 117, 1);
-  font-family: Roboto;
   font-size: 14px;
-  font-weight: 400;
-  font-style: bold;
-  line-height: 24px;
+  line-height: 1.71x;
 }
 .section__header {
   color: rgba(33, 33, 33, 1);
-  font-family: Roboto;
   font-size: 36px;
   font-weight: 700;
-  line-height: 42px;
+  line-height: 1.17;
 }
 .team__member {
-  font-family: Roboto;
   font-size: 16px;
+  line-height: 1.19;
 }
 .team__name {
   color: rgba(33, 33, 33, 1);
@@ -94,12 +95,11 @@ a {
   height: 38px;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.62;
+  line-height: 1.63;
   border-radius: 3px;
   text-align: center;
   letter-spacing: 0.03em;
   padding: 6px 22px;
-  font-family: "Roboto";
   cursor: pointer;
 }
 .btn:hover,
@@ -111,14 +111,14 @@ a {
   font-weight: 700;
   font-size: 18px;
   font-style: bold;
-  line-height: 36px;
+  line-height: 2;
   color: rgba(33, 33, 33, 1);
 }
 .project__type {
   font-weight: 400;
   font-size: 16px;
-  font-style: regular;
-  line-height: 30px;
+  font-style: normal;
+  line-height: 1.88;
   color: rgba(117, 117, 117, 1);
 }
 
@@ -129,11 +129,14 @@ a {
   color: #ffffff;
 }
 .footer-contact {
-  font-family: Roboto;
   font-size: 14px;
-  font-style: regular;
-  line-height: 24px;
+  font-style: normal;
+  line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
+}
+.footer-contact:hover,
+.footer-contact:focus {
+  color: #2196f3;
 }
 .address {
   color: rgba(255, 255, 255, 1);
