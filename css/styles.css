@@ -20,6 +20,10 @@ a {
   font-size: 14px;
   color: #212121;
 }
+.navigation__link:hover,
+.navigation__link:focus {
+  color: #2196f3;
+}
 .navigation__portfolio {
   color: #2196f3;
 }
@@ -27,7 +31,10 @@ a {
   color: #757575;
   font-size: 14px;
 }
-
+.header-contact:hover,
+.header-contact:focus {
+  color: #2196f3;
+}
 .section-main {
   background-color: rgba(47, 48, 58, 1);
 }
@@ -94,6 +101,25 @@ a {
   padding: 6px 22px;
   font-family: "Roboto";
   cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(33, 150, 243, 1);
+}
+.project__name {
+  font-weight: 700;
+  font-size: 18px;
+  font-style: bold;
+  line-height: 36px;
+  color: rgba(33, 33, 33, 1);
+}
+.project__type {
+  font-weight: 400;
+  font-size: 16px;
+  font-style: regular;
+  line-height: 30px;
+  color: rgba(117, 117, 117, 1);
 }
 
 .footer {
